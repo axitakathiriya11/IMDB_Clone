@@ -1,0 +1,41 @@
+.actors{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px auto;
+}
+.actors form{
+    width: 290px;
+    margin-bottom: 20px;
+}
+.actors label{
+    display: block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.actors input, button{
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+.actors input{
+    width: 210px;
+}
+.actors button{
+    width: 70px;
+    background: #555;
+    color: white;
+    margin-left: 10px;
+}
+.actors .row{
+    min-width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}

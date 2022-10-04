@@ -1,0 +1,31 @@
+header{
+    min-height: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+header .logo{
+    flex: 1;
+}
+header a{
+    color: #111111;
+    font-weight: 600;
+}
+header ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+header a:hover{
+    color: #F45D96;
+    font-weight: 600;
+}
+header a:active{
+    color: #F45D96;
+}
+.menu{
+    display: none;
+}
